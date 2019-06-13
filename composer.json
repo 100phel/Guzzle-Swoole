@@ -17,5 +17,13 @@
             "Yurun\\Util\\Swoole\\Guzzle\\": "src/",
             "GuzzleHttp\\": "src/GuzzleHttp/"
 		}
+    },
+    "extra": {
+        "class": "Yurun\\Util\\Swoole\\Guzzle\\Plugin\\Plugin"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Yurun\\Util\\Swoole\\Guzzle\\Plugin\\Plugin::dev"
+        ]
     }
 }
