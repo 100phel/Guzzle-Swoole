@@ -19,11 +19,7 @@
 		}
     },
     "extra": {
-        "class": "Yurun\\Util\\Swoole\\Guzzle\\Plugin\\Plugin",
-        "include_files": [
-            "src/load.php",
-            "src/functions.php"
-        ]
+        "class": "Yurun\\Util\\Swoole\\Guzzle\\Plugin\\Plugin"
     },
     "scripts": {
         "post-autoload-dump": [
