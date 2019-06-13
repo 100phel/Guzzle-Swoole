@@ -57,7 +57,6 @@ class Plugin implements PluginInterface, EventSubscriberInterface
 
     public function dumpFiles()
     {    
-        $this->parseGuzzle();
     }
 
     public static function dev(\Composer\Script\Event $event)
